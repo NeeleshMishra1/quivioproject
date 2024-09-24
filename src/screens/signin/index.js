@@ -132,6 +132,7 @@ export default class Signin extends Component {
                         <Text style={styles.text1}>{strings.text1}</Text>
                         <Text style={styles.text2}>{strings.text2}</Text>
                         <Text>varun</Text>
+                        <Text>neelesh</Text>
 
                         <TextinputEmail onEmailChange={this.handleEmailChange} />
 
