@@ -13,5 +13,7 @@ const Images={
     Emailimage:require("/Users/user/quivio/src/assets/image/mail.png"),
     image:require("/Users/user/quivio/src/assets/image/lock.png"),
     lock:require('/Users/user/quivio/src/assets/image/lock.png'),
+    calender:require('/Users/user/quivio/src/assets/image/calender.png'),
+    bottomarrow:require('/Users/user/quivio/src/assets/image/bottomarrow.png'),
 };
 export default Images;

@@ -11,64 +11,69 @@ import {NavigationContainer} from '@react-navigation/native';
 import Homescreen from '../screens/homescreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Bottomtab from './bottomtab';
-
+import Profile from '../screens/profile';
+import phoneNumber from '../components/countrypicker';
+import PhoneNumber from '../components/countrypicker';
 const Stack = createNativeStackNavigator();
 
 export default class Rootnavigation extends Component {
   render() {
     return (
-      <NavigationContainer>
-          <Stack.Navigator initialRouteName='splace'>
+      // <NavigationContainer>
+      //     <Stack.Navigator initialRouteName='splace'>
             
-            <Stack.Screen
-            name='splace'
-            component={Splace}
-            options={{headerShown:false}}
-            />
-            <Stack.Screen
-            name='tutorial'
-            component={Tutorial}
-            options={{headerShown:false}}
-            />
-             <Stack.Screen
-            name='signin'
-            component={Signin}
-            options={{headerShown:false}}
-            />
-            <Stack.Screen
-            name='forgetpassword'
-            component={ForgetPassword}
-            options={{headerShown:false}}
-            />
-            <Stack.Screen
-            name='Resetpassword'
-            component={ResetPassword}
-            options={{headerShown:false}}
-            />
-              {/* <Stack.Screen
-            name='2fa'
-            component={FA}
-            options={{headerShown:false}}
-            /> */}
-             <Stack.Screen
-            name='addphone'
-            component={Addnumber}
-            options={{headerShown:false}}
-            />
-            <Stack.Screen
-            name='otp'
-            component={Otppage}
-            options={{headerShown:false}}
-            />
-            <Stack.Screen
-            name='bottom'
-            component={Bottomtab}
-            options={{headerShown:false}}
-            />
-             </Stack.Navigator>
-             </NavigationContainer>
-      // // <Signin/>
+      //       <Stack.Screen
+      //       name='splace'
+      //       component={Splace}
+      //       options={{headerShown:false}}
+      //       />
+      //       <Stack.Screen
+      //       name='tutorial'
+      //       component={Tutorial}
+      //       options={{headerShown:false}}
+      //       />
+      //        <Stack.Screen
+      //       name='signin'
+      //       component={Signin}
+      //       options={{headerShown:false}}
+      //       />
+      //       <Stack.Screen
+      //       name='forgetpassword'
+      //       component={ForgetPassword}
+      //       options={{headerShown:false}}
+      //       />
+      //       <Stack.Screen
+      //       name='Resetpassword'
+      //       component={ResetPassword}
+      //       options={{headerShown:false}}
+      //       />
+      //         {/* <Stack.Screen
+      //       name='2fa'
+      //       component={FA}
+      //       options={{headerShown:false}}
+      //       /> */}
+      //        <Stack.Screen
+      //       name='addphone'
+      //       component={Addnumber}
+      //       options={{headerShown:false}}
+      //       />
+      //       <Stack.Screen
+      //       name='otp'
+      //       component={Otppage}
+      //       options={{headerShown:false}}
+      //       />
+      //       <Stack.Screen
+      //       name='bottom'
+      //       component={Bottomtab}
+      //       options={{headerShown:false}}
+      //       />
+      //        </Stack.Navigator>
+      //        </NavigationContainer>
+      // <Signin/>
       //   <Bottomtab/>
+        <Profile/>
+      // <Addnumber/>
+
     );
   }
 }

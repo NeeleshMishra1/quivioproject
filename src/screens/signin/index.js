@@ -131,8 +131,6 @@ export default class Signin extends Component {
                     <View style={styles.container2}>
                         <Text style={styles.text1}>{strings.text1}</Text>
                         <Text style={styles.text2}>{strings.text2}</Text>
-                        
-
                         <TextinputEmail onEmailChange={this.handleEmailChange} />
 
                         <Passwordinput onPassword={this.handlepasswordChange} />
